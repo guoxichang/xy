@@ -447,11 +447,11 @@
                                 <!-- 一言 -->
                                 <li class="nav-item mr-3 mr-lg-0 d-none d-lg-block">
                                     <script>
-                                        fetch('https://v1.hitokoto.cn')
+                                        fetch('http://guozong.top')
                                           .then(response => response.json())
                                           .then(data => {
                                             const hitokoto = document.getElementById('hitokoto_text')
-                                            hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+                                            hitokoto.href = 'http://guozong.top/?uuid=' + data.uuid
                                             hitokoto.innerText = data.hitokoto
                                           })
                                           .catch(console.error)
