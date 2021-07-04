@@ -4,15 +4,15 @@ var myPlaylist = new jPlayerPlaylist({
 		cssSelectorAncestor: "#jp_container_N"
 	},
      [
-		{ title: "夜曲", artist: "Chopin", mp3: "http://music.163.com/song/media/outer/url?id=5266269.mp3", poster:"wp-content/12333.jpg"},
-		{ title: "幽灵公主", artist: "K. Williams", mp3: "http://qzone.haoduoge.com/music3/2015-01-26/1422203098.mp3", poster: "wp-content/12333.jpg"},
-		{ title: "Lost in Love", artist: "Bois LanYun", mp3: "http://music.163.com/song/media/outer/url?id=521597063.mp3", poster:"wp-content/12333.jpg"},
-		{ title: "远すぎた空", artist: "Akito", mp3: "http://music.163.com/song/media/outer/url?id=357185.mp3", poster:"wp-content/12333.jpg"},
-		{ title: "Whether", artist: " AniFace", mp3: "http://music.163.com/song/media/outer/url?id=515384791.mp3", poster:"wp-content/12333.jpg"},
-		{ title: "Constellation Of Tatyana", artist: "Yakuro", mp3: "http://music.163.com/song/media/outer/url?id=28914253.mp3", poster:"wp-content/12333.jpg"},
-		{ title: "Princess", artist: "α·Pav", mp3: "http://music.163.com/song/media/outer/url?id=357023.mp3", poster:"wp-content/12333.jpg"},
-		{ title: "Day by Day", artist: "Shirfine", mp3: "http://music.163.com/song/media/outer/url?id=27579054.mp3", poster:"wp-content/12333.jpg"},
-		{ title: "blue blossoms", artist: "久遠", mp3: "http://music.163.com/song/media/outer/url?id=803347.mp3", poster:"wp-content/12333.jpg"}
+		{ title: "大眠 (完整版)", artist: "小乐哥", mp3: "http://music.163.com/song/media/outer/url?id=1413142894.mp3", poster:"wp-content/12333.jpg"},
+		{ title: "归去来兮", artist: "花粥", mp3: "http://music.163.com/song/media/outer/url?id=1357999894.mp3", poster: "wp-content/12333.jpg"},
+		{ title: "故乡", artist: "许巍", mp3: "http://music.163.com/song/media/outer/url?id=168107.mp3", poster:"wp-content/12333.jpg"},
+		{ title: "永远的兄弟", artist: "刀郎", mp3: "http://music.163.com/song/media/outer/url?id=76933.mp3", poster:"wp-content/12333.jpg"},
+		{ title: "东北民谣", artist: " 毛不易", mp3: "http://music.163.com/song/media/outer/url?id=1411558182.mp3", poster:"wp-content/12333.jpg"},
+		{ title: "我的一个道姑朋友", artist: "双笙", mp3: "http://music.163.com/song/media/outer/url?id=1367452194.mp3", poster:"wp-content/12333.jpg"},
+		{ title: "白玫瑰", artist: "陈奕迅", mp3: "http://music.163.com/song/media/outer/url?id=65761.mp3", poster:"wp-content/12333.jpg"},
+		{ title: "父亲写的散文诗", artist: "刘乐瑶", mp3: "http://music.163.com/song/media/outer/url?id=1302090321.mp3", poster:"wp-content/12333.jpg"},
+		{ title: "单车(Live)", artist: "陈奕迅", mp3: "http://music.163.com/song/media/outer/url?id=64561.mp3", poster:"wp-content/12333.jpg"}
 	 ],
 		{playlistOptions:{enableRemoveControls: true},
 		swfPath: "js/",
