@@ -4,8 +4,8 @@ var myPlaylist = new jPlayerPlaylist({
 		cssSelectorAncestor: "#jp_container_N"
 	},
      [
-		{ title: "心之逆鳞", artist: "魏小涵", mp3: "http://music.163.com/song/media/outer/url?id=408280658.mp3"", poster:"wp-content/12333.jpg"},
-		{ title: "Dance, cherry blossoms!", artist: "Yuri akiyama", mp3: "http://music.163.com/song/media/outer/url?id=518291899.mp3 ", poster:"wp-content/12333.jpg"},
+		{ title: "夜曲", artist: "Chopin", mp3: "http://music.163.com/song/media/outer/url?id=5266269.mp3", poster:"wp-content/12333.jpg"},
+		{ title: "幽灵公主", artist: "K. Williams", mp3: "http://qzone.haoduoge.com/music3/2015-01-26/1422203098.mp3", poster: "wp-content/12333.jpg"},
 		{ title: "Lost in Love", artist: "Bois LanYun", mp3: "http://music.163.com/song/media/outer/url?id=521597063.mp3", poster:"wp-content/12333.jpg"},
 		{ title: "远すぎた空", artist: "Akito", mp3: "http://music.163.com/song/media/outer/url?id=357185.mp3", poster:"wp-content/12333.jpg"},
 		{ title: "Whether", artist: " AniFace", mp3: "http://music.163.com/song/media/outer/url?id=515384791.mp3", poster:"wp-content/12333.jpg"},
