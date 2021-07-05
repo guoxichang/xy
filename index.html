@@ -542,16 +542,16 @@
                                 <!-- 一言 -->
                                 <li class="nav-item mr-3 mr-lg-0 d-none d-lg-block">
                                     <script>
-                                        fetch('http://guozong.top')
+                                        fetch('五子棋.html')
                                           .then(response => response.json())
                                           .then(data => {
                                             const hitokoto = document.getElementById('hitokoto_text')
-                                            hitokoto.href = 'http://guozong.top/?uuid=' + data.uuid
+                                            hitokoto.href = '五子棋.html?uuid=' + data.uuid
                                             hitokoto.innerText = data.hitokoto
                                           })
                                           .catch(console.error)
                                     </script>                           
-                                    <div id="hitokoto"><a href="" target="_blank" id="hitokoto_text">欢迎郭总回家本站永久网址guozong.top</a></div>
+                                    <div id="hitokoto"><a href="" target="_blank" id="hitokoto_text">娱乐一下</a></div>
                                 </li>
                                 <!-- 一言 end -->
                                 <li class="nav-search ml-3 ml-md-4">
