@@ -546,21 +546,21 @@
                                           .then(response => response.json())
                                           .then(data => {
                                             const hitokoto = document.getElementById('hitokoto_text')
-                                            hitokoto.href = '五子棋.html?uuid=' + data.uuid
+                                            hitokoto.href = '五子棋.html' + data.uuid
                                             hitokoto.innerText = data.hitokoto
                                           })
                                           .catch(console.error)
                                     </script>                           
-                                    <div id="hitokoto"><a href="" target="_blank" id="hitokoto_text">娱乐一下</a></div>
+                                    <div id="hitokoto"><a href="五子棋.html" target="_blank" id="hitokoto_text">娱乐一下</a></div>
                                 </li>
                                 <!-- 一言 end -->
                                 <li class="nav-search ml-3 ml-md-4">
-                                    <a href="javascript:" data-toggle="modal" data-target="#search-modal"><i
+                                    <a href="五子棋.html" data-toggle="modal" data-target="#search-modal"><i
                                             class="iconfont icon-search icon-2x"></i></a>
                                 </li>
                                 <li class="nav-item d-md-none mobile-menu ml-3 ml-md-4">
-                                    <a href="javascript:" id="sidebar-switch" data-toggle="modal"
-                                        data-target="#sidebar"><i class="iconfont icon-classification icon-2x"></i></a>
+                                    <a href="五子棋.html:" id="sidebar-switch" data-toggle="modal"
+                                        data-target="五子棋.html"><i class="iconfont icon-classification icon-2x"></i></a>
                                 </li>
                             </ul>
                         </div>
